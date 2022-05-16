@@ -1,0 +1,57 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="col-xs-12 text-center header-div" >
+      <br>
+      <h2>Sound controlled Alien</h2>
+      <p>Note: Play different sounds like clap, snap, bell to make the aliens dance</p>
+      <br>
+    </div>
+    <div class="main_div">
+      <center>
+        <button class="btn btn-dark" onclick="startclassification()">Start</button>
+        <br><br>
+        <h3 id="result_label">
+          I can hear -
+        </h3>
+        <h3 id="result_confidence">
+          Accuracy -
+        </h3>
+        <br>
+        <img src="aliens-01.png" id="person1" width="300" height="300">
+        <img src="aliens-02.png" id="person2" width="300" height="300">
+        <img src="aliens-03.png" id="person3" width="300" height="300">
+        <img src="aliens-04.png" id="person4" width="300" height="300">
+      </center>
+    </div>
+    <div class="copy_right_footer">
+      developed by - Joaquin
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+<!--https://teachablemachine.withgoogle.com/models/PgjyGySXJ/-->
+
+
+
+
+
+
+
+
+ 
+

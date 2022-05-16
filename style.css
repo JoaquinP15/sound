@@ -1,0 +1,38 @@
+body{
+    background-color: cornflowerblue;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.header-div{
+    background-color:beige;
+    color: brown;
+    padding-bottom: 7.5px;
+}
+
+.header-div p{
+    font-family: 'Pacifico', cursive;
+    color: darkgoldenrod;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main_div button{
+    font-family: 'Caveat', cursive;
+    margin-top: 30px;
+    width: 120px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer{
+    color:darkred;
+    background-color: beige;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    line-height: 50px;
+    text-shadow: 5px 5px 5px grey;
+}
